@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Sentient Honeypot Mission Control",
+  "description": "A web application to deploy, monitor, and learn from AI-powered serverless honeypots. It provides a dashboard for a high-level overview, honeypot management, threat intelligence analysis, and an alerting system.",
+  "requestFramePermissions": []
+}
