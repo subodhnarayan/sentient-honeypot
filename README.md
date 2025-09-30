@@ -74,30 +74,15 @@ Default credentials use `password` as the password.
 3. Log in as **analyst** → Check **Interaction Analysis**, view AI summaries, replay sessions, and triage alerts.  
 
 ---
+💻 Run Locally
 
-## 📁 Project Structure
+Prerequisites: Node.js installed
 
-```bash
-.
-├── public/
-├── components/
-│   ├── aichat/         # AI Co-Pilot
-│   ├── alerts/         # Alerts Triage
-│   ├── auditlog/       # Audit Logs
-│   ├── auth/           # Login
-│   ├── dashboard/      # Dashboard widgets
-│   ├── honeypots/      # Honeypot management
-│   ├── icons/          # SVG icons
-│   ├── layout/         # Sidebar, Header
-│   ├── settings/       # Settings
-│   ├── threatfeed/     # Live Threat Feed
-│   ├── threatgraph/    # Visual Threat Graph
-│   ├── threathunting/  # AI Threat Hunting
-│   ├── threatintel/    # Interaction Analysis
-│   └── user/           # Standard User role view
-├── data/               # Mock data generators
-├── App.tsx             # Main app & routing
-├── firebase.ts         # Firebase config
-├── index.html          # HTML entry
-├── index.tsx           # React root
-└── types.ts            # TypeScript type definitions
+# 1. Install dependencies
+npm install
+
+# 2. Set Gemini API key
+echo "GEMINI_API_KEY=your_api_key_here" > .env.local
+
+# 3. Run the app
+npm run dev
